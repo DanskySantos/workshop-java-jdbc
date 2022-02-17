@@ -12,4 +12,7 @@ module application.workshopjavafxjdbc {
 
     opens application.workshopjavafxjdbc to javafx.fxml;
     exports application.workshopjavafxjdbc;
+    exports controllers;
+    opens controllers to javafx.fxml;
+    exports model.entities;
 }
